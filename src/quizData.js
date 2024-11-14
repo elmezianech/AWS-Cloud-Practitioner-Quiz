@@ -2,120 +2,120 @@ const quizData = [
     {
       "question": "analyze data directly in Amazon S3 by using standard SQL",
       "options": [
-        "AWS Fargate",
-        "Amazon SageMaker",
+        "Amazon Redshift Spectrum",
+        "AWS Glue",
         "Amazon Athena",
-        "Amazon RDS"
+        "Amazon Aurora"
       ],
       "answer": "Amazon Athena"
     },
     {
       "question": "find, subscribe to, and use third-party data in the cloud",
       "options": [
-        "Amazon DynamoDB",
+        "AWS Marketplace",
         "AWS Data Exchange",
-        "AWS Glue",
-        "Amazon EC2"
+        "Amazon AppFlow",
+        "AWS Glue Catalog"
       ],
       "answer": "AWS Data Exchange"
     },
     {
       "question": "run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data",
       "options": [
-        "AWS CloudFormation",
-        "AWS Key Management Service (KMS)",
-        "Amazon EMR (Elastic Map Reduce)",
-        "AWS Data Exchange"
+        "Amazon Kinesis Data Analytics",
+        "Amazon EMR",
+        "AWS Batch",
+        "AWS Glue ETL"
       ],
-      "answer": "Amazon EMR (Elastic Map Reduce)"
+      "answer": "Amazon EMR"
     },
     {
       "question": "discover, prepare, move, and integrate data from multiple sources (ETL)",
       "options": [
-        "AWS X-Ray",
+        "AWS Data Pipeline",
         "AWS Glue",
-        "Amazon SQS",
-        "Amazon RDS"
+        "Amazon QuickSight",
+        "AWS Lake Formation"
       ],
       "answer": "AWS Glue"
     },
     {
-      "question": "collect, process, and analyze video streams and data streams in near real time",
+      "question": "collect, process, and analyze video streams and data streams in near real-time",
       "options": [
-        "Amazon Kinesis",
-        "AWS Fargate",
+        "Amazon Kinesis Data Streams",
+        "AWS IoT Core",
         "AWS Lambda",
-        "Amazon S3"
+        "Amazon Kinesis Video Streams"
       ],
-      "answer": "Amazon Kinesis"
+      "answer": "Amazon Kinesis Data Streams"
     },
     {
       "question": "build and run applications that use Apache Kafka to process streaming data",
       "options": [
-        "Amazon Redshift",
-        "Amazon MSK (Managed Streaming for Kafka)",
-        "AWS Snowball",
-        "Amazon EC2"
+        "Amazon MSK",
+        "AWS Lambda",
+        "Amazon Kinesis Data Streams",
+        "AWS Batch"
       ],
-      "answer": "Amazon MSK (Managed Streaming for Kafka)"
+      "answer": "Amazon MSK"
     },
     {
       "question": "deploy, operate, and scale OpenSearch clusters in the cloud",
       "options": [
-        "Amazon SQS",
-        "Amazon SNS",
+        "Amazon Elasticsearch Service",
         "Amazon OpenSearch Service",
-        "AWS CodeBuild"
+        "AWS RDS",
+        "Amazon Neptune"
       ],
       "answer": "Amazon OpenSearch Service"
     },
     {
       "question": "business intelligence service that provides insights in a single data dashboard",
       "options": [
-        "Amazon EC2",
-        "AWS CloudFormation",
-        "AWS CodeCommit",
-        "Amazon QuickSight"
+        "AWS Data Pipeline",
+        "Amazon QuickSight",
+        "AWS Glue DataBrew",
+        "Amazon Lookout for Metrics"
       ],
       "answer": "Amazon QuickSight"
     },
     {
       "question": "use events to connect application components together, build scalable event-driven applications",
       "options": [
-        "Amazon Redshift",
-        "AWS Lambda",
+        "AWS Step Functions",
         "Amazon EventBridge",
-        "AWS X-Ray"
+        "Amazon SNS",
+        "AWS Lambda"
       ],
       "answer": "Amazon EventBridge"
     },
     {
       "question": "provides message delivery from publishers to subscribers",
       "options": [
-        "AWS Step Functions",
         "Amazon SNS",
-        "Amazon DynamoDB",
-        "AWS Trusted Advisor"
+        "AWS Simple Queue Service (SQS)",
+        "Amazon Kinesis",
+        "Amazon MQ"
       ],
       "answer": "Amazon SNS"
     },
     {
       "question": "provides a queue to integrate and decouple distributed software systems and components",
       "options": [
-        "Amazon SageMaker",
-        "AWS Trusted Advisor",
+        "AWS Step Functions",
+        "Amazon SNS",
         "Amazon SQS",
-        "Amazon RDS"
+        "AWS AppSync"
       ],
       "answer": "Amazon SQS"
     },
     {
       "question": "integrate with Lambda functions and view application workflows as a series of event-driven steps",
       "options": [
-        "Amazon SNS",
-        "Amazon DynamoDB",
         "AWS Step Functions",
-        "AWS X-Ray"
+        "Amazon EventBridge",
+        "AWS CodePipeline",
+        "Amazon SWF (Simple Workflow)"
       ],
       "answer": "AWS Step Functions"
     },
@@ -123,8 +123,8 @@ const quizData = [
       "question": "omnichannel cloud contact center",
       "options": [
         "Amazon Connect",
-        "AWS Trusted Advisor",
-        "Amazon SNS",
+        "AWS IoT Core",
+        "Amazon Chime",
         "Amazon CloudFront"
       ],
       "answer": "Amazon Connect"
@@ -132,60 +132,60 @@ const quizData = [
     {
       "question": "send and receive emails through existing email addresses and domains",
       "options": [
-        "Amazon Cognito",
         "Amazon SES",
-        "AWS Trusted Advisor",
-        "Amazon S3"
+        "Amazon SNS",
+        "AWS Pinpoint",
+        "Amazon Connect"
       ],
       "answer": "Amazon SES"
     },
     {
       "question": "custom billing service that can support showback and chargeback workflows of AWS Solution Providers and Enterprise customers",
       "options": [
-        "AWS X-Ray",
-        "Amazon SQS",
+        "AWS Cost Explorer",
         "AWS Billing Conductor",
-        "AWS Glue"
+        "AWS Budgets",
+        "AWS Trusted Advisor"
       ],
       "answer": "AWS Billing Conductor"
     },
     {
       "question": "set a monthly cost budget with alerts for actual spend or forecasted spend",
       "options": [
-        "AWS AppSync",
         "AWS Budgets",
-        "Amazon CloudWatch",
-        "Amazon Kinesis"
+        "AWS Cost Explorer",
+        "AWS Billing Conductor",
+        "AWS Trusted Advisor"
       ],
       "answer": "AWS Budgets"
     },
     {
       "question": "contains the most comprehensive set of cost and usage data available",
       "options": [
-        "AWS CodeCommit",
-        "AWS Lambda",
-        "AWS Cost and Usage Report",
-        "Amazon DynamoDB"
+        "AWS Cost Explorer",
+        "AWS Usage Reports",
+        "AWS Billing Conductor",
+        "AWS Cost and Usage Report"
       ],
       "answer": "AWS Cost and Usage Report"
     },
     {
       "question": "visualize cost and usage over time, including the past 12 months and a forecast of the next 12 months",
       "options": [
-        "Amazon DynamoDB",
-        "AWS Step Functions",
-        "AWS Lambda",
-        "AWS Cost Explorer"
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Trusted Advisor",
+        "AWS Cost and Usage Report"
       ],
       "answer": "AWS Cost Explorer"
     },
     {
       "question": "curated digital catalog of third-party software, data, and services",
       "options": [
-        "AWS Glue",
-        "AWS X-Ray",
-        "AWS Identity and Access Management (IAM)",
-        "AWS Marketplace"
+        "AWS Data Exchange",
+        "AWS Marketplace",
+        "AWS Glue Catalog",
+        "AWS AppFlow"
       ],
       "answer": "AWS Marketplace"
     },
@@ -193,69 +193,69 @@ const quizData = [
       "question": "run batch computing workloads",
       "options": [
         "AWS Batch",
-        "AWS Step Functions",
-        "AWS AppSync",
-        "AWS X-Ray"
+        "AWS Glue ETL",
+        "AWS Lambda",
+        "AWS Step Functions"
       ],
       "answer": "AWS Batch"
     },
     {
       "question": "provides scalable computing capacity in the AWS Cloud",
       "options": [
-        "AWS Key Management Service (KMS)",
-        "AWS AppSync",
-        "Amazon EC2",
-        "AWS Fargate"
+        "Amazon Lightsail",
+        "AWS Elastic Beanstalk",
+        "AWS Fargate",
+        "Amazon EC2"
       ],
       "answer": "Amazon EC2"
     },
     {
       "question": "allows developers to deploy and monitor health of applications without managing underlying infrastructure (PaaS)",
       "options": [
-        "Amazon Redshift",
         "AWS Elastic Beanstalk",
-        "AWS CodePipeline",
-        "AWS Snowball"
+        "AWS App Runner",
+        "AWS Fargate",
+        "Amazon ECS"
       ],
       "answer": "AWS Elastic Beanstalk"
     },
     {
       "question": "run code without the need to provision or manage servers",
       "options": [
-        "Amazon EC2",
-        "AWS Key Management Service (KMS)",
         "AWS Lambda",
-        "Amazon Redshift"
+        "Amazon ECS",
+        "AWS Fargate",
+        "AWS Batch"
       ],
       "answer": "AWS Lambda"
     },
     {
       "question": "launch projects quickly from a simple management interface with little cloud experience",
       "options": [
-        "AWS X-Ray",
-        "AWS Trusted Advisor",
         "Amazon Lightsail",
-        "AWS Snowball"
+        "AWS Elastic Beanstalk",
+        "Amazon EC2",
+        "AWS CloudFormation"
       ],
       "answer": "Amazon Lightsail"
     },
     {
       "question": "extends AWS infrastructure, services, APIs, and tools to customer premises",
       "options": [
-        "Amazon DynamoDB",
         "AWS Outposts",
-        "AWS CodeCommit",
-        "AWS Step Functions"
+        "AWS Local Zones",
+        "AWS Direct Connect",
+        "AWS Wavelength"
       ],
       "answer": "AWS Outposts"
     },
     {
       "question": "container image registry that is secure, scalable, and reliable",
       "options": [
-        "Amazon SageMaker",
         "Amazon ECR",
-        "Amazon RDS",
-        "AWS Step Functions"
+        "AWS CodeArtifact",
+        "AWS Marketplace",
+        "AWS Fargate"
       ],
       "answer": "Amazon ECR"
     },
@@ -263,119 +263,119 @@ const quizData = [
       "question": "deploy, manage, and scale containerized applications",
       "options": [
         "Amazon ECS",
-        "Amazon S3",
-        "AWS Trusted Advisor",
-        "Amazon EC2"
+        "AWS Lambda",
+        "AWS App Runner",
+        "Amazon EKS"
       ],
       "answer": "Amazon ECS"
     },
     {
       "question": "run Kubernetes without the need to install, operate, or maintain the Kubernetes control plane or nodes",
       "options": [
-        "AWS Key Management Service (KMS)",
-        "AWS Data Exchange",
+        "AWS Fargate",
+        "AWS App Runner",
         "Amazon EKS",
-        "Amazon Kinesis"
+        "Amazon ECS"
       ],
       "answer": "Amazon EKS"
     },
     {
       "question": "works with Amazon ECS to run containers without the need to manage servers or EC2 instances",
       "options": [
-        "AWS Trusted Advisor",
-        "AWS AppSync",
+        "AWS Lambda",
+        "AWS App Runner",
         "AWS Fargate",
-        "Amazon SNS"
+        "Amazon EC2 Auto Scaling"
       ],
       "answer": "AWS Fargate"
     },
     {
       "question": "provides resources to help startups build and grow on AWS",
       "options": [
-        "Amazon SageMaker",
-        "Amazon DynamoDB",
-        "AWS Activate for Startups",
-        "Amazon Elasticsearch Service"
+        "AWS Activate",
+        "AWS IQ",
+        "Amazon Lightsail",
+        "AWS Marketplace"
       ],
-      "answer": "AWS Activate for Startups"
+      "answer": "AWS Activate"
     },
     {
       "question": "connects users to AWS Certified experts for help with AWS projects",
       "options": [
-        "Amazon RDS",
-        "AWS Step Functions",
-        "AWS Key Management Service (KMS)",
-        "AWS IQ"
+        "AWS IQ",
+        "AWS Support",
+        "AWS Trusted Advisor",
+        "AWS Activate"
       ],
       "answer": "AWS IQ"
     },
     {
-      "question": "provides ongoing management for a user\u2019s AWS infrastructure",
+      "question": "provides ongoing management for a user’s AWS infrastructure",
       "options": [
-        "Amazon SQS",
-        "AWS Managed Services (AMS)",
+        "AWS Managed Services",
+        "AWS Support",
         "AWS Trusted Advisor",
-        "Amazon Kinesis"
+        "AWS Service Catalog"
       ],
-      "answer": "AWS Managed Services (AMS)"
+      "answer": "AWS Managed Services"
     },
     {
       "question": "database engine that is compatible with MySQL and PostgreSQL",
       "options": [
-        "Amazon Aurora",
-        "AWS CodeCommit",
         "Amazon RDS",
-        "Amazon Kinesis"
+        "Amazon Aurora",
+        "Amazon Neptune",
+        "AWS Timestream"
       ],
       "answer": "Amazon Aurora"
     },
     {
       "question": "NoSQL database service with fast and predictable performance and seamless scalability; schemaless",
       "options": [
-        "Amazon EC2",
+        "Amazon DynamoDB",
+        "Amazon Timestream",
         "Amazon RDS",
-        "AWS Glue",
-        "Amazon DynamoDB"
+        "Amazon Neptune"
       ],
       "answer": "Amazon DynamoDB"
     },
     {
       "question": "durable, in-memory database service that delivers ultra-fast performance",
       "options": [
-        "AWS Key Management Service (KMS)",
-        "Amazon DynamoDB",
+        "Amazon ElastiCache",
         "Amazon MemoryDB for Redis",
-        "Amazon Kinesis"
+        "Amazon RDS",
+        "Amazon Timestream"
       ],
       "answer": "Amazon MemoryDB for Redis"
     },
     {
       "question": "graph database service for highly connected datasets",
       "options": [
-        "Amazon Redshift",
-        "Amazon Cognito",
         "Amazon Neptune",
-        "AWS Identity and Access Management (IAM)"
+        "Amazon DynamoDB",
+        "Amazon Timestream",
+        "Amazon ElastiCache"
       ],
       "answer": "Amazon Neptune"
     },
     {
       "question": "set up, operate, and scale a relational database in the cloud",
       "options": [
-        "Amazon Kinesis",
-        "AWS X-Ray",
         "Amazon RDS",
-        "AWS CodePipeline"
+        "Amazon Aurora",
+        "Amazon DynamoDB",
+        "Amazon Redshift"
       ],
       "answer": "Amazon RDS"
     },
     {
       "question": "petabyte-scale data warehouse with automatically provisioned resources and intelligent scaling",
       "options": [
-        "Amazon SageMaker",
-        "AWS CodeCommit",
-        "AWS Snowball",
-        "Amazon Redshift"
+        "Amazon RDS",
+        "Amazon Redshift",
+        "Amazon Aurora",
+        "Amazon Neptune"
       ],
       "answer": "Amazon Redshift"
     },
@@ -383,9 +383,9 @@ const quizData = [
       "question": "create, manage, and quickly deploy application configurations",
       "options": [
         "AWS AppConfig",
-        "AWS Glue",
-        "AWS AppSync",
-        "AWS Fargate"
+        "AWS CloudFormation",
+        "AWS App Runner",
+        "Amazon ECS"
       ],
       "answer": "AWS AppConfig"
     },
@@ -1662,7 +1662,7 @@ const quizData = [
     {
       "question": "fully managed native JSON document database compatible with MongoDB",
       "options": [
-        "AWS Trusted Advisor",
+        "DynamoDB",
         "DocumentDB",
         "AWS Glue",
         "Amazon Redshift"
@@ -1742,143 +1742,143 @@ const quizData = [
     {
       "question": "most cost-effective option to have 24x7 phone, email, and chat support",
       "options": [
-        "AWS X-Ray",
+        "Basic Support Plan",
         "Business Support Plan",
-        "AWS Glue",
-        "AWS Key Management Service (KMS)"
+        "Enterprise Support Plan",
+        "Developer Support Plan"
       ],
       "answer": "Business Support Plan"
     },
     {
-      "question": "business-critical system down response under 15 minutes and access to a Technical Account Manager/Concierge Support Team",
+      "question": "Which AWS support plan guarantees a response time of under 15 minutes for business-critical system down situations, and includes access to a Technical Account Manager and Concierge Support Team?",
       "options": [
-        "Amazon CloudFront",
+        "Business Support Plan",
         "Enterprise Support Plan",
-        "AWS Glue",
-        "AWS Trusted Advisor"
+        "Developer Support Plan",
+        "Basic Support Plan"
       ],
       "answer": "Enterprise Support Plan"
     },
     {
-      "question": "configuration management service that provides managed instances of Chef and Puppet.",
+      "question": "Which AWS service provides configuration management through managed instances of Chef and Puppet, and allows automation of infrastructure tasks?",
       "options": [
-        "Amazon SageMaker",
-        "AWS Step Functions",
+        "AWS Systems Manager",
+        "Amazon EC2 Systems Manager",
         "OpsWorks",
-        "AWS AppSync"
+        "AWS Config"
       ],
       "answer": "OpsWorks"
     },
     {
-      "question": "Canvas to visually design and build serverless applications",
+      "question": "Which AWS service provides a visual canvas to design and build serverless applications with a drag-and-drop interface?",
       "options": [
-        "AWS Lambda",
-        "AWS CodePipeline",
+        "AWS Step Functions",
         "AWS Application Composer",
-        "AWS AppSync"
+        "AWS Amplify Studio",
+        "AWS CloudFormation Designer"
       ],
       "answer": "AWS Application Composer"
     },
     {
-      "question": "Move large amount of data from on-premises to AWS. Replication tasks are incremental.",
+      "question": "Which AWS service is designed to move large amounts of data from on-premises to AWS, with incremental replication tasks?",
       "options": [
-        "Amazon SQS",
-        "Amazon Elasticsearch Service",
+        "AWS Snowball Edge",
         "AWS DataSync",
-        "AWS CodePipeline"
+        "Amazon FSx for Windows File Server",
+        "AWS Transfer Family"
       ],
       "answer": "AWS DataSync"
     },
     {
       "question": "Which AWS services support VPC Endpoint Gateway for a private connection from a VPC?",
       "options": [
-        "AWS Lambda",
-        "AWS CodeBuild",
-        "AWS Fargate",
-        "S3 and DynamoDB (others use Interface Endpoints)"
+        "Amazon S3 and DynamoDB (other services use Interface Endpoints)",
+        "AWS Lambda and EC2",
+        "AWS Fargate and CodeCommit",
+        "Amazon RDS and SQS"
       ],
-      "answer": "S3 and DynamoDB (others use Interface Endpoints)"
+      "answer": "Amazon S3 and DynamoDB (other services use Interface Endpoints)"
     },
     {
-      "question": "Maximum percent savings for reserving an instance",
+      "question": "What is the maximum percentage of savings you can achieve by reserving an instance?",
       "options": [
         "72%",
-        "AWS CodeBuild",
-        "AWS Key Management Service (KMS)",
-        "AWS Glue"
+        "Up to 60%",
+        "75%",
+        "Up to 80%"
       ],
       "answer": "72%"
     },
     {
-      "question": "Services that are encrypted by default",
+      "question": "Which of the following services are encrypted by default?",
       "options": [
-        "S3 and Storage Gateway",
-        "AWS Data Exchange",
-        "AWS CodeBuild",
-        "AWS CodeCommit"
+        "Amazon S3 and AWS Storage Gateway",
+        "Amazon RDS and Amazon DynamoDB",
+        "Amazon S3 and AWS Secrets Manager",
+        "AWS CodeCommit and AWS Lambda"
       ],
-      "answer": "S3 and Storage Gateway"
+      "answer": "Amazon S3 and AWS Storage Gateway"
     },
     {
       "question": "Which Amazon Simple Storage Service (Amazon S3) storage class offers the lowest availability?",
       "options": [
-        "AWS Glue",
-        "AWS CodePipeline",
-        "AWS Snowball",
-        "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+        "Amazon S3 Glacier Deep Archive",
+        "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+        "Amazon S3 Intelligent-Tiering",
+        "Amazon S3 Standard-IA"
       ],
       "answer": "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)"
     },
     {
       "question": "What are the components of an AWS Site-to-Site VPN?",
       "options": [
-        "Amazon Kinesis",
-        "Virtual Private Gateway(VPG)/Transit Gateway and Customer Gateway",
-        "AWS AppSync",
-        "Amazon CloudWatch"
+        "AWS Direct Connect and Virtual Private Gateway",
+        "Virtual Private Gateway (VPG)/Transit Gateway and Customer Gateway",
+        "Amazon VPC Peering and AWS Transit Gateway",
+        "Amazon CloudFront and Site-to-Site Tunnel"
       ],
-      "answer": "Virtual Private Gateway(VPG)/Transit Gateway and Customer Gateway"
+      "answer": "Virtual Private Gateway (VPG)/Transit Gateway and Customer Gateway"
     },
     {
-      "question": "provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents",
+      "question": "Which service provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents?",
       "options": [
-        "AWS Snowball",
-        "AWS Data Exchange",
         "Amazon Augmented AI (A2I)",
-        "Amazon Cognito"
+        "AWS Lambda",
+        "Amazon Textract",
+        "Amazon Rekognition"
       ],
       "answer": "Amazon Augmented AI (A2I)"
-    },
+    },    
     {
-      "question": "When do you pay for data transfered between S3 and an EC2 instance?",
+      "question": "When do you pay for data transferred between S3 and an EC2 instance?",
       "options": [
-        "Amazon CloudFront",
-        "Amazon Elasticsearch Service",
         "If it's in a different region",
-        "Amazon Kinesis"
+        "When using S3 Transfer Acceleration",
+        "When the EC2 instance uses a public IP",
+        "If S3 is accessed through CloudFront"
       ],
       "answer": "If it's in a different region"
     },
     {
-      "question": "Which service can you use to choose an optimal Savings Plan",
+      "question": "Which AWS service can you use to choose an optimal Savings Plan?",
       "options": [
-        "Amazon CloudWatch",
         "Cost Explorer",
-        "Amazon RDS",
-        "AWS Key Management Service (KMS)"
+        "AWS Trusted Advisor",
+        "AWS Budgets",
+        "AWS Cost and Usage Report"
       ],
       "answer": "Cost Explorer"
     },
     {
-      "question": "What are the two types of savings plans?",
+      "question": "What are the two types of AWS Savings Plans?",
       "options": [
         "Compute Savings Plan and EC2 Instance Savings Plan",
-        "AWS CodeCommit",
-        "AWS Lambda",
-        "AWS Data Exchange"
+        "Compute Savings Plan and Lambda Savings Plan",
+        "EC2 Instance Savings Plan and S3 Savings Plan",
+        "Reserved Instance Savings Plan and Spot Savings Plan"
       ],
       "answer": "Compute Savings Plan and EC2 Instance Savings Plan"
-    },
+    },    
     {
       "question": "automated reference deployments for key workloads",
       "options": [
@@ -1900,12 +1900,12 @@ const quizData = [
       "answer": "AWS OpsHub"
     },
     {
-      "question": "provides reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, etc.",
+      "question": "Which AWS service provides reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more?",
       "options": [
-        "Amazon EC2",
-        "Amazon Elasticsearch Service",
-        "AWS Snowball",
-        "AWS Architecture Center"
+        "AWS Well-Architected Tool",
+        "AWS CloudFormation Registry",
+        "AWS Architecture Center",
+        "AWS Solutions Constructs"
       ],
       "answer": "AWS Architecture Center"
     },
