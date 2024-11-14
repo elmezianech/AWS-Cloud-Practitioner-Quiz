@@ -17,6 +17,7 @@ Built using **React** for the frontend and **AWS Amplify** for the backend and a
 - **AWS Cognito** - For secure authentication
 - **GitHub Actions** - For CI/CD integration and automatic deployments
 - **CSS** - Styling to ensure a modern and clean user experience
+
 ![1_fL-1IOssLrYISKuj5m7aHg](https://github.com/user-attachments/assets/c7cf9403-cf52-4b04-bc17-61ebd22c5822)
 
 ## 🚀 Getting Started
